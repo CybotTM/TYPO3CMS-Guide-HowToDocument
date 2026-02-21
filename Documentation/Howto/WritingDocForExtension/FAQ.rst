@@ -28,6 +28,22 @@ If you are missing documentation for some extension versions we have a
 
 .. rst-class:: panel panel-default
 
+
+.. _faq-for-extension-authors-moved:
+
+The repository was moved and is no longer rendered
+==================================================
+
+This can be fixed by following these steps:
+
+#. Inform us (the `Documentation Team <https://typo3.org/community/teams/documentation/#c9886>`__) in the `#typo3-documentation <https://typo3.slack.com/archives/C028JEPJL>`__ Slack channel
+#. We will remove your existing documentation.
+#. You need to register the new repository. Or inform us of the new URL and we can do this for you.
+#. We will approve the new repository.
+#. You can regenerate existing versions of the documentation by following: `Reregister versions <reregister-versions>`_
+
+.. rst-class:: panel panel-default
+
 Why Does the Documentation not provide a title?
 ===============================================
 
