@@ -18,7 +18,7 @@ the documentation page.
 .. _image-zoom-modes:
 
 Available zoom modes
---------------------
+====================
 
 The zoom functionality is controlled by the `:zoom:` option on figure
 and image directives. The following zoom modes are available:
@@ -59,7 +59,7 @@ and image directives. The following zoom modes are available:
 .. _image-zoom-options:
 
 Directive options
------------------
+=================
 
 The following options are available for the figure and image directives:
 
@@ -83,12 +83,12 @@ The following options are available for the figure and image directives:
 .. _image-zoom-examples:
 
 Usage examples
---------------
+==============
 
 .. _image-zoom-example-3:
 
 Example 3: Lightbox zoom
-~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------
 
 ..  figure:: /_Images/a4.jpg
     :alt: Example screenshot
@@ -109,7 +109,7 @@ Example 3: Lightbox zoom
 .. _image-zoom-example-4:
 
 Example 4: Gallery mode with grouped images
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------------------
 
 ..  code-block:: rst
 
@@ -130,7 +130,7 @@ Example 4: Gallery mode with grouped images
 .. _image-zoom-example-5:
 
 Example 5: Inline scroll-wheel zoom
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------
 
 ..  code-block:: rst
 
@@ -143,7 +143,7 @@ Example 5: Inline scroll-wheel zoom
 .. _image-zoom-example-6:
 
 Example 6: Magnifier lens
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------
 
 ..  code-block:: rst
 
@@ -156,7 +156,7 @@ Example 6: Magnifier lens
 .. _image-zoom-example-7:
 
 Example 7: Hidden zoom indicator
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------
 
 ..  code-block:: rst
 
@@ -170,14 +170,14 @@ Example 7: Hidden zoom indicator
 .. _image-zoom-accessibility:
 
 Accessibility considerations
------------------------------
+=============================
 
 All zoom modes are designed with accessibility in mind:
 
 .. _image-zoom-keyboard:
 
 Keyboard navigation
-~~~~~~~~~~~~~~~~~~~
+-------------------
 
 *   **Lightbox and Gallery modes**: Full keyboard support
 
@@ -204,7 +204,7 @@ Keyboard navigation
 .. _image-zoom-screen-reader:
 
 Screen reader support
-~~~~~~~~~~~~~~~~~~~~~~
+---------------------
 
 All zoom modes maintain proper ARIA attributes and provide descriptive
 labels for assistive technologies. Always use the `:alt:` option to
@@ -213,7 +213,7 @@ provide descriptive alternative text for images.
 .. _image-zoom-reduced-motion:
 
 Reduced motion support
-~~~~~~~~~~~~~~~~~~~~~~~
+----------------------
 
 The zoom functionality respects the `prefers-reduced-motion` media query.
 When reduced motion is preferred, transitions and animations are disabled.
@@ -221,7 +221,7 @@ When reduced motion is preferred, transitions and animations are disabled.
 .. _image-zoom-best-practices:
 
 Best practices
---------------
+==============
 
 *   Always include descriptive `:alt:` text for accessibility
 *   Use `lightbox` as the default for most images
